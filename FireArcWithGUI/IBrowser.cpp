@@ -47,7 +47,7 @@ bool IBrowser::OpenBrowser() const
         return false;
     }
 
-    // Simulate user open the 'Run' program
+    // Simulate user open the 'Run' Command Prompt
     if (!OpenRunCommandPrompt())
     {
         std::cerr << "OpenBrowser:  Run Command Prompt failed to open." << std::endl;

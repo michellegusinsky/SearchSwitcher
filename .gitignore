@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /FireArcWithGUI/FireArcWithGUI.vcxproj.user
+/FireArcWithGUI/x64/Debug/FireArcWithGUI.log
+/FireArcWithGUI/x64/Release/FireArcWithGUI.log

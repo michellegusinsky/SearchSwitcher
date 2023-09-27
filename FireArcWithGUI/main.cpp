@@ -1,10 +1,10 @@
-#include "FireArcWithGUI.h"
+#include "SearchSwitcher.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    FireArcWithGUI w;
+    SearchSwitcher w;
     w.show();
     return a.exec();
 }

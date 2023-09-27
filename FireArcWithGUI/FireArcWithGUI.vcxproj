@@ -22,6 +22,7 @@
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.22621.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.22621.0</WindowsTargetPlatformVersion>
     <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+    <ProjectName>SearchSwitcher</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
@@ -93,10 +94,10 @@
     <ClCompile Include="IBrowser.cpp" />
     <ClCompile Include="MicrosoftEdgeBrowser.cpp" />
     <ClCompile Include="SimulateUserUtility.cpp" />
-    <QtRcc Include="FireArcWithGUI.qrc" />
-    <QtUic Include="FireArcWithGUI.ui" />
-    <QtMoc Include="FireArcWithGUI.h" />
-    <ClCompile Include="FireArcWithGUI.cpp" />
+    <QtRcc Include="SearchSwitcher.qrc" />
+    <QtUic Include="SearchSwitcher.ui" />
+    <QtMoc Include="SearchSwitcher.h" />
+    <ClCompile Include="SearchSwitcher.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

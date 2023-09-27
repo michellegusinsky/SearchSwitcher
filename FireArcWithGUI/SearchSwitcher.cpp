@@ -1,19 +1,19 @@
-#include "FireArcWithGUI.h"
+#include "SearchSwitcher.h"
 #include "MicrosoftEdgeBrowser.h"
 #include <regex>
 
 
-FireArcWithGUI::FireArcWithGUI(QWidget *parent)
+SearchSwitcher::SearchSwitcher(QWidget *parent)
     : QMainWindow(parent)
 {
     ui.setupUi(this);
     ui.urlRequirment->setVisible(false);
 }
 
-FireArcWithGUI::~FireArcWithGUI()
+SearchSwitcher::~SearchSwitcher()
 {}
 
-void FireArcWithGUI::on_start_clicked()
+void SearchSwitcher::on_start_clicked()
 {
     resetWidgets();
     QString entryName = ui.entryName->text();
@@ -27,7 +27,7 @@ void FireArcWithGUI::on_start_clicked()
     }
 }
 
-void FireArcWithGUI::resetWidgets()
+void SearchSwitcher::resetWidgets()
 {
     ui.entryName->setStyleSheet("border: 1px solid black");
     ui.shortcut->setStyleSheet("border: 1px solid black");
@@ -35,7 +35,7 @@ void FireArcWithGUI::resetWidgets()
     ui.urlRequirment->setVisible(false);
 }
 
-bool FireArcWithGUI::isValid(const std::string& entry, const std::string& shortcut, const std::string& url)
+bool SearchSwitcher::isValid(const std::string& entry, const std::string& shortcut, const std::string& url)
 {
     bool isValid{ true };
     if (entry.empty() )

@@ -1,14 +1,1 @@
-﻿  Reading Qt configuration (C:/Qt/6.7.0/msvc2019_64/bin/qmake)
-  uic FireArcWithGUI.ui
-  rcc FireArcWithGUI.qrc
-  moc FireArcWithGUI.h
-   RCC: Warning: No resources in 'C:\Users\miche\source\repos\FireArcWithGUI\FireArcWithGUI\FireArcWithGUI.qrc'.
-  ChromeBrowser.cpp
-  IBrowser.cpp
-  MicrosoftEdgeBrowser.cpp
-  SimulateUserUtility.cpp
-  FireArcWithGUI.cpp
-  main.cpp
-  qrc_FireArcWithGUI.cpp
-  moc_FireArcWithGUI.cpp
-  FireArcWithGUI.vcxproj -> C:\Users\miche\source\repos\FireArcWithGUI\x64\Release\FireArcWithGUI.exe
+﻿
